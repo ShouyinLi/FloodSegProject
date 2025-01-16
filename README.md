@@ -1,2 +1,4 @@
 # FloodSegProject
 使用了多种方法的来解决洪水卫星图像分割任务的仓库
+以下是各个网络的框架图
+RandomForest/diabetes.png
