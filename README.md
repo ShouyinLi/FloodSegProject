@@ -1,28 +1,19 @@
 # FloodSegProject
-使用了多种方法的来解决洪水卫星图像分割任务的仓库
-以下是各个网络的框架图
-RandomForest/diabetes.png
-FloodSegProject/
-│
-├── DATA/             # 数据集管理
-│   ├── raw/          # 原始图像数据
-│   ├── processed/    # 预处理后的数据
-│   └── annotations/  # 标注信息
-│
-├── Transformer/      # Transformer模型实现
-│   ├── model.py      
-│   └── train.py     
-│
-├── UNET/             # U-Net模型
-│   ├── model.py
-│   └── train.py
-│
-├── RandomForest/     # 随机森林方法
-│   ├── model.py
-│   └── diabetes.png  # 模型框架图
-│
-├── DataTransformer/  # 数据预处理
-│   ├── augmentation.py
-│   └── preprocessing.py
-│
-└── README.md
+
+使用了多种方法来解决洪水卫星图像分割任务的仓库
+
+## 网络框架图集
+
+### 1. Random Forest 框架
+![Random Forest 框架](RandomForest/diabetes.png)
+
+### 2. 项目背景
+本项目旨在通过多种深度学习和机器学习方法实现洪水卫星图像的精准分割。
+
+### 3. 支持的方法
+- 随机森林
+- U-Net
+- DeepLab
+- Mask R-CNN
+
+### 4. 目录结构
